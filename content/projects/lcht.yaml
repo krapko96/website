@@ -1,0 +1,7 @@
+name: "LCHT Agent Platform"
+description: "Data science agent platform for anti-human trafficking operations. Built an agentic pipeline using LangGraph to automate investigative data workflows, reducing manual analysis time for case officers."
+tech: [Python, LangGraph, LLMs, FastAPI, PostgreSQL]
+status: active
+github: null
+demo: null
+blog: null

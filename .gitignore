@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+requirements.txt
+visualizations/_rendered/
+.vercel/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.sesskey

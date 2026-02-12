@@ -1,0 +1,16 @@
+[project]
+name = "website"
+version = "0.1.0"
+description = "kenrapko.dev — personal website and blog"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "plotly>=6.5.2",
+    "pygments>=2.19.2",
+    "pymdown-extensions>=10.20.1",
+    "python-fasthtml>=0.12.41",
+    "python-frontmatter>=1.1.0",
+    "python-markdown>=0.1.0",
+    "pyyaml>=6.0.3",
+]

@@ -1,0 +1,7 @@
+name: "Baseball Prediction Models"
+description: "MLB pitcher performance models and NCAA tournament bracket predictions. Combines statistical modeling with domain expertise in baseball analytics."
+tech: [Python, scikit-learn, XGBoost, Plotly, pandas]
+status: active
+github: https://github.com/kenrapko
+demo: null
+blog: null

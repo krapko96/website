@@ -1,0 +1,7 @@
+name: "Kalshi Market Analysis"
+description: "Data visualization and analysis of prediction market volume, liquidity, and pricing on Kalshi's regulated exchange. Interactive treemaps and time series of market activity."
+tech: [Python, Plotly, pandas, Kalshi API]
+status: active
+github: null
+demo: null
+blog: /blog/2026-02-10-kalshi-prediction-markets

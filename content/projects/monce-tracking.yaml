@@ -1,0 +1,8 @@
+name: "MONCE Metrics"
+description: "Novel metrics for visual object tracking evaluation. Published research on measuring tracker performance under occlusion, with applications to autonomous vehicle perception systems."
+tech: [Python, OpenCV, Computer Vision, PyTorch]
+status: published
+github: null
+demo: null
+paper: https://arxiv.org
+blog: null
