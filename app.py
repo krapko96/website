@@ -1,11 +1,18 @@
+import os
+from pathlib import Path
+
 from fasthtml.common import *
 
 from components.layout import page
 from components.blog import load_posts, get_post, blog_list_page, blog_post_page
 from components.projects import load_projects, projects_page
 
+# Resolve project root so paths work on Vercel too
+ROOT = Path(__file__).parent.resolve()
+IS_DEV = os.environ.get("VERCEL") is None
+
 app, rt = fast_app(
-    live=True,
+    live=IS_DEV,
     hdrs=(
         Link(rel="stylesheet", href="/static/css/style.css"),
         Link(rel="preconnect", href="https://fonts.googleapis.com"),
@@ -18,7 +25,7 @@ app, rt = fast_app(
     pico=False,
 )
 
-app.static_route_exts(prefix="/static/", static_path="static")
+app.static_route_exts(prefix="/static/", static_path=str(ROOT / "static"))
 
 
 # ── Home ────────────────────────────────────────────────────────────────────────

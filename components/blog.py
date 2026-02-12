@@ -7,8 +7,8 @@ import markdown
 from pymdownx import superfences, highlight, inlinehilite
 from fasthtml.common import *
 
-BLOG_DIR = Path(__file__).parent.parent / "content" / "blog"
-VIZ_RENDERED_DIR = Path(__file__).parent.parent / "visualizations" / "_rendered"
+BLOG_DIR = (Path(__file__).parent.parent / "content" / "blog").resolve()
+VIZ_RENDERED_DIR = (Path(__file__).parent.parent / "visualizations" / "_rendered").resolve()
 
 
 def _md_extensions():

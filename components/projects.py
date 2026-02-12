@@ -3,7 +3,7 @@ from pathlib import Path
 import yaml
 from fasthtml.common import *
 
-PROJECTS_DIR = Path(__file__).parent.parent / "content" / "projects"
+PROJECTS_DIR = (Path(__file__).parent.parent / "content" / "projects").resolve()
 
 STATUS_COLORS = {
     "active": "status-active",
